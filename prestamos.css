@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+.header-secundario {
+  background-color: #00fe04;
+  color: white;
+  padding: 1rem;
+}
+
+.nav-secundaria {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-secundaria h1 {
+  font-size: 1.5rem;
+}
+
+.btn-inicio {
+  background-color: white;
+  color: #00fe04;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Hero préstamos */
+.hero-prestamos {
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: #e6f2ff;
+}
+
+.hero-prestamos h2 {
+  color: #00fe04;
+  margin-bottom: 1rem;
+}
+
+/* Lista de préstamos */
+.prestamos-lista {
+  padding: 2rem;
+  background-color: white;
+}
+
+.prestamos-lista h2 {
+  text-align: center;
+  color: #00fe04;
+  margin-bottom: 1rem;
+}
+
+.prestamos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.prestamo {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.prestamo h3 {
+  color: #00fe04;
+  margin-bottom: 0.5rem;
+}
+
+.prestamo p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Footer */
+.footer-simple {
+  text-align: center;
+  padding: 1rem;
+  background-color: #00fe04;
+  color: white;
+  margin-top: 2rem;
+}

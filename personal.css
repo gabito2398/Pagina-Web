@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+.top-bar {
+  background-color: #0072c6;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+
+.top-bar nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.main-nav {
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.main-nav nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.menu a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #0072c6;
+  font-weight: bold;
+}
+
+.acciones a {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #0072c6;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+
+.hero {
+  background: url('img/hero.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 2rem;
+}
+
+
+.intro {
+  padding: 2rem;
+  background-color: white;
+  text-align: center;
+}
+
+
+.beneficios {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #e6f2ff;
+}
+
+.beneficios-lista {
+  flex: 2;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.beneficios-lista article {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.beneficios-info {
+  flex: 1;
+  background-color: #0072c6;
+  color: white;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.beneficios-info a {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: white;
+  color: #0072c6;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+
+.tarjeta {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  background-color: white;
+}
+
+.tarjeta-texto {
+  flex: 1;
+  padding: 1rem;
+}
+
+.tarjeta-texto a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #0072c6;
+  text-decoration: underline;
+}
+
+.tarjeta-imagen {
+  flex: 1;
+}
+
+/* Beneficios avanzados */
+.beneficios-avanzados {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.beneficios-cards {
+  flex: 2;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.beneficios-cards article {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.beneficios-texto {
+  flex: 1;
+  padding: 1rem;
+}
+
+.beneficios-texto a {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #0072c6;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* Características */
+.caracteristicas {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  background-color: white;
+}
+
+.caracteristicas-texto {
+  flex: 1;
+  padding: 1rem;
+}
+
+.caracteristicas-texto ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.caracteristicas-texto li {
+  margin-bottom: 1rem;
+}
+
+.caracteristicas-texto a {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #0072c6;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.caracteristicas-imagen img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Privilegios */
+.privilegios {
+  text-align: center;
+  padding: 2rem;
+  background-color: #e6f2ff;
+}
+
+.privilegios-logos {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.privilegios-logos img {
+  height: 40px;
+}
+
+/* Footer */
+.footer {
+  background-color: #0072c6;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+.footer-links {
+  margin-bottom: 2rem;
+}
+
+.links-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background-color: white;
+  color: #333;
+  padding: 1rem;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #0072c6;
+  text-decoration: underline;
+}
+
+.footer-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.footer-nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-nav a {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-apps img,
+.footer-social img,
+.footer-certificaciones img {
+  height: 30px;
+  margin-right: 0.5rem;
+}
+
+.footer-copy {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
